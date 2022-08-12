@@ -58,7 +58,7 @@ h2{
 .About{
     display: flex;
     justify-content: center;
-    height: 900px;
+    height: 810px;
     padding-top: 90px;
     flex-wrap: wrap;
 }
