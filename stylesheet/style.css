@@ -220,15 +220,14 @@ button:hover{
         display: flex;
         justify-content: center;
         height: 780px;
-        padding-top: 86px;
+        padding-top: 90px;
         flex-wrap: wrap;
     }
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 451px) {
     .About{
         padding-top: 220px;
-        height: 850px;
     }
 }
 
