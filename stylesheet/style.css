@@ -129,7 +129,7 @@ button:hover{
 
 
 
-@media screen and (max-width: 451px) {
+@media screen and (max-width: 426px) {
     .linklist{
         display: block;
     }
@@ -225,7 +225,7 @@ button:hover{
     }
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 451px) {
     .About{
         padding-top: 200px;
     }
