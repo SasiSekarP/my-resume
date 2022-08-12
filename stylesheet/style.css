@@ -42,13 +42,19 @@ h2{
 .navbar{
     display: flex;
     justify-content: space-between;
-    color: aqua;
     align-items: baseline;
     padding: 1rem 0px;
+    color: aqua;
+}
+a{
+    text-decoration: none;
+    color: aqua;
+    font-size: 1.1rem;
 }
 .list:hover{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: white;
+    cursor: pointer;
 }
 /* about */
 .Aboutcontainer{
