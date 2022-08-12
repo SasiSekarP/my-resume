@@ -137,7 +137,7 @@ button:hover{
 
 @media screen and (max-width: 426px) {
     .linklist{
-        display: block;
+        display: flex;
     }
     .Aboutcontainer{
         background-image: none;
@@ -182,7 +182,7 @@ button:hover{
     .Aboutcontainer{
         background-image: none;
         background-color: black;
-        height: auto;
+        height: 900px;
     }
     .About{
         display: flex;
@@ -229,6 +229,11 @@ button:hover{
         padding-top: 90px;
         flex-wrap: wrap;
     }
+    .list{
+        width: 150px;
+        text-align: end;
+        padding: 0.rem;
+    }
 }
 
 @media screen and (max-width: 451px) {
@@ -249,5 +254,11 @@ button:hover{
         font-family: 'Roboto Slab', serif;
         font-weight: 900;
         line-height: 1.5rem;
-    }    
+    }
+    .list{
+        width: 110px;
+    }
+    .linklist{
+        align-items: flex-end;
+    }
 }
