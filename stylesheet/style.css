@@ -50,6 +50,7 @@ img{
     font-family: 'Rubik Marker Hatch', cursive;
     line-height: 27px;
     padding: 1rem 0px;
+    float: left;
 }
 
 .first{
@@ -57,7 +58,6 @@ img{
 }
 
 .second{
-    
     font-size: 48px;
 }
 
@@ -67,12 +67,13 @@ img{
     display: flex;
     flex-wrap: wrap;
     padding: 1rem 0rem;
+    flex-wrap: wrap;
 }
 
 .list-items{
-    padding: 5rem 1rem;
     font-size: 1rem;
     color: var(--light-blue);
+    padding: 0.3rem;
     
 }
 
@@ -277,4 +278,13 @@ img{
     font-size: 1rem;
     padding: 1rem;
     text-align: center;
+}
+
+/* respondive screen */
+
+@media screen and (max-width: 426px) {
+    .nav-bar-list{
+        display: flex;
+        flex-direction: column;
+    }    
 }
