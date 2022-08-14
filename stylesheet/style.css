@@ -213,34 +213,7 @@ img{
     height: auto;
     width: 25rem;
     border: solid 3px goldenrod;
-    border-radius: 0.5rem;
-    overflow: hidden;
-    background-color: white;
-    box-shadow: 3px 3px 10px black;
-}
-
-/* Quotes */
-
-.quote-container{
-    padding: 3rem 0rem;
-    background-color: aliceblue;
-}
-
-.quote-box1{
-    width: 80%;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 3rem;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.quote1{
-    height: auto;
-    width: 25rem;
-    border: solid 2px goldenrod;
-    border-radius: 0.5rem;
+    border-radius: 0.75rem;
     overflow: hidden;
     background-color: white;
     box-shadow: 3px 3px 10px black;
@@ -250,8 +223,52 @@ img{
     display: flex;
     justify-content: space-around;
     padding: 1rem;
+    
 }
 
+/* Quotes */
+
+.quote-container{
+    padding: 3rem 0rem;
+    background-color: aliceblue;
+}
+
+.quote-card{
+    display: flex;
+    padding: 1rem;
+}
+
+.quote-box{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.quote-card{
+    width: 24rem;
+    height: auto;
+    border: goldenrod 3px solid;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 3px 3px 10px rgb(35, 18, 18);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quote-image{
+    width: 5.5rem;
+}
+
+.quote-para-container{
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
 
 /* footer */
 .footer{
