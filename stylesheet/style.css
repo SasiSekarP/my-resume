@@ -205,13 +205,13 @@ img{
     display: flex;
     flex-wrap: wrap;
     gap: 5rem;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
 .bigcard{
     height: auto;
-    width: 25rem;
+    width: 22rem;
     border: solid 3px goldenrod;
     border-radius: 0.75rem;
     overflow: hidden;
