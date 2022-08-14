@@ -7,23 +7,26 @@
     <!--Style sheet link  -->
     <link rel="stylesheet" href="./stylesheet/style.css">
     <title>sasi_sekar_mern_web_developer</title>
+    <!-- icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <nav class="navbar-container">
         <nav class="navbar-box">
             <div class="logo-container">
-                <h1>Sasi Sekar</h1>
+                <h1 class="first">Sasi</h1>
+                <h1 class="second">Sekar</h1>
             </div>
             <ul class="nav-bar-list">
-                <li><a class="list-items">HOME</a></li>
-                <li><a class="list-items">SKILL</a></li>
-                <li><a class="list-items">PROJECTS</a></li>
-                <li><a class="list-items">QUOTES</a></li>
-                <li><a class="list-items">CONTACT</a></li>
+                <li><a class="list-items" href="#home">HOME</a></li>
+                <li><a class="list-items" href="#skill">SKILL</a></li>
+                <li><a class="list-items" href="#project">PROJECTS</a></li>
+                <li><a class="list-items" href="#quote">QUOTES</a></li>
+                <li><a class="list-items" href="#contact">CONTACT</a></li>
             </ul>
         </nav>
     </nav>
-    <div class="home-container">
+    <div class="home-container" id="home">
         <div class="home-box">
             <div class="left-box">
                 <div class="heading">
@@ -31,12 +34,127 @@
                     <h1 class="home-left-box-heading"><strong>Web Developer</strong></h1>
                 </div>
                 <div class="para"><p>I am a MERN Stack Web Developer</p></div>
-                <button>Resume</button>
+                <button class="home-page-button"><i class="fa-solid fa-download"></i> Resume</button>
             </div>
             <div class="right-box">
-                <img src="" alt="">
+                <img class="dp-image" src="./stylesheet/dp.JPG" alt="" />
             </div>
         </div>
+    </div>
+    <div class="content-container" id="contact">
+        <div class="heading1">
+            <h1>To Contact...</h1>
+        </div>
+        <div class="contant-box">
+            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#sent"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/sasi-sekar/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-hashnode"></i></a>
+            <a href="https://github.com/SasiSekarP"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </div>
+    <div class="skill-container"  id="skill">
+        <div class="heading1">
+            <h1>Skills...</h1>
+        </div>
+        <div class="skill-box">
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-brands fa-html5"></i></div>
+                <div class="para">HTML-5</div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-brands fa-css3-alt"></i></div>
+                <div class="para">CSS-3</div>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-brands fa-js"></i>
+                </div>
+                <div class="para">JavaScript</div>
+            </div>
+        </div>
+    </div>
+    <div class="project-container" id="project">
+        <div class="heading1"><h1>Project...</h1></div>
+        <div class="project-box">
+            <div class="bigcard">
+                <div class="image">
+                    <img src="./stylesheet/first-project.jpg" alt="">
+                </div>
+                <div class="buttons">
+                    <button class="home-page-button" onclick=url("https://github.com/SasiSekarP/odin-s-project")>see code</button>
+                    <button class="home-page-button">Live site</button>
+                </div>
+            </div>
+            <div class="bigcard">
+                <div class="image">
+                    <img src="./stylesheet/first-project.jpg" alt="">
+                </div>
+                <div class="buttons">
+                    <button class="home-page-button">see code</button>
+                    <button class="home-page-button">Live site</button>
+                </div>
+            </div>
+            <div class="bigcard">
+                <div class="image">
+                    <img src="./stylesheet/first-project.jpg" alt="">
+                </div>
+                <div class="buttons">
+                    <button class="home-page-button" onclick=url("https://github.com/SasiSekarP/odin-s-project")>see code</button>
+                    <button class="home-page-button">Live site</button>
+                </div>
+            </div>
+            <div class="bigcard">
+                <div class="image">
+                    <img src="./stylesheet/first-project.jpg" alt="">
+                </div>
+                <div class="buttons">
+                    <button class="home-page-button">see code</button>
+                    <button class="home-page-button">Live site</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="quote-container" id="quote">
+        <div class="heading1"><h1>Quotes...</h1></div>
+        <div class="quote-box1">
+            <div class="quote1">
+                <div class="image"></div>
+                <img src="./stylesheet/first-project.jpg" alt="">
+                <div class="buttons">
+                    <button class="home-page-button">see code</button>
+                    <button class="home-page-button">Live site</button>
+                </div>
+            </div>
+            <div class="quote1">
+                <div class="image"></div>
+                <img src="./stylesheet/first-project.jpg" alt="">
+                <div class="buttons">
+                    <button class="home-page-button">see code</button>
+                    <button class="home-page-button">Live site</button>
+                </div>
+            </div>
+            <div class="quote1">
+                <div class="image"></div>
+                <img src="./stylesheet/first-project.jpg" alt="">
+                <div class="buttons">
+                    <button class="home-page-button">see code</button>
+                    <button class="home-page-button">Live site</button>
+                </div>
+            </div>
+            <div class="quote1">
+                <div class="image"></div>
+                <img src="./stylesheet/first-project.jpg" alt="">
+                <div class="buttons">
+                    <button class="home-page-button">see code</button>
+                    <button class="home-page-button">Live site</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copy rights @ SasiSekar</p>
     </div>
 </body>
 </html>

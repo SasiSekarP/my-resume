@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;900&display=swap');
 
@@ -9,11 +9,31 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.heading1{
+    width: 80%;
+    margin: auto;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    
+    padding: 0rem 0rem 3rem 0rem;
+}
+:root{
+    --light-blue: aqua;
+    --bg-blue: rgb(168, 231, 231);
+}
+
 /* Nav bar */
 .navbar-container{
     background-color: #1f2937;
-    color: whitesmoke;
-    height: auto;
+    color: var(--light-blue);
+    position: fixed;
+    width: 100%;
 }
 .navbar-box{
     display: flex;
@@ -27,8 +47,18 @@
 /* logo */
 
 .logo-container{
-    font-family: 'Courgette', cursive;
-    font-size: 60px;
+    font-family: 'Rubik Marker Hatch', cursive;
+    line-height: 27px;
+    padding: 1rem 0px;
+}
+
+.first{
+    font-size: 33px;
+}
+
+.second{
+    
+    font-size: 48px;
 }
 
 /* nav-bar-list */
@@ -36,25 +66,198 @@
 .nav-bar-list{
     display: flex;
     flex-wrap: wrap;
+    padding: 1rem 0rem;
 }
 
 .list-items{
-    padding: 0.25rem 1rem;
+    padding: 5rem 1rem;
     font-size: 1rem;
+    color: var(--light-blue);
     
 }
 
 .list-items:hover{
-    color: yellow;
+    color: rgb(70, 78, 235);
     cursor: pointer;
+    border-color: transparent;
 }
 
 /* Home */
+
+.home-container{
+    background-image: url(https://i.pinimg.com/736x/30/8f/2f/308f2fd627c36e007527bc50337f6c7b.jpg);
+    background-size: cover;
+}
+.home-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
 .heading{
     font-family: 'Roboto Slab', serif;
+    font-size: 30px;
 }
 
 .home-left-box-heading{
     font-weight: 400;
 }
+.left-box{
+    color: white;
+    height: 843px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    width: 50%;
+    gap: 2rem;
+}
 
+.dp-image{
+    width: 20rem;
+    border-radius: 50%;
+    padding: 10rem 1rem;
+}
+
+.home-page-button{
+    padding: 0.25rem 0.5rem;
+    color: white;
+    background-color: blue;
+    border-radius: 0.35rem;
+    font-weight: 900;
+    font-size: 1rem;
+}
+
+.home-page-button:hover{
+    color: blue;
+    background-color: white;
+}
+/* contact */
+
+.content-container{
+    width: 100%;
+    background-color: rgb(163, 242, 242);
+    padding: 3rem 0rem;
+}
+.contant-box{
+    font-size: 6rem;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3rem;
+}
+/* skill */
+
+.skill-container{
+    background-color: ;
+    background-color: aliceblue;
+    padding: 3rem 0rem;
+}
+
+.skill-box{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 5rem;
+}
+
+/* card */
+.card{
+    width: 15rem;
+    height: 15rem;
+    border: solid 2px goldenrod;
+    border-radius: 0.5rem;
+    box-shadow: 3px 3px 10px black;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icon{
+    width: 80%;
+    height: 70%;
+    font-size: 8rem;
+    text-align: center;
+}
+
+.para{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* project */
+
+.project-container{
+    padding: 5rem 0rem;
+}
+
+.project-box{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bigcard{
+    height: auto;
+    width: 25rem;
+    border: solid 3px goldenrod;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 3px 3px 10px black;
+}
+
+/* Quotes */
+
+.quote-container{
+    padding: 3rem 0rem;
+    background-color: aliceblue;
+}
+
+.quote-box1{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quote1{
+    height: auto;
+    width: 25rem;
+    border: solid 2px goldenrod;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 3px 3px 10px black;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+
+/* footer */
+.footer{
+    background-color: #1f2937;
+    color: aqua;
+    font-size: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
