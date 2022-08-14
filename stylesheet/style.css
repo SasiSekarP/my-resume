@@ -243,6 +243,7 @@ a{
 .quote-card{
     display: flex;
     padding: 1rem;
+    gap: 1rem;
 }
 
 .quote-box{
@@ -299,7 +300,10 @@ a{
     .heading{
         font-family: 'Roboto Slab', serif;
         font-size: 20px;
-    } 
+    }
+    .quote-image{
+        width: 8rem;
+    }
     .home-box{
         display: flex;
         justify-content: center;
