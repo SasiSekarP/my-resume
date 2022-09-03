@@ -141,23 +141,7 @@ a{
     color: blue;
     background-color: white;
 }
-/* contact */
 
-.content-container{
-    width: 100%;
-    background-color: rgb(163, 242, 242);
-    padding: 3rem 0rem;
-    color: black;
-}
-.contant-box{
-    font-size: 6rem;
-    width: 80%;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 3rem;
-}
 /* skill */
 
 .skill-container{
@@ -282,9 +266,25 @@ a{
 .footer{
     background-color: #1f2937;
     color: aqua;
-    font-size: 1rem;
-    padding: 1rem;
+    font-size: 1.3rem;
+    padding: 2rem;
     text-align: center;
+    line-height: 4rem;
+}
+
+.column1{
+    line-height: 2rem;
+}
+/* contact */
+.extra-box ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul .icon{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
 }
 
 /* respondive screen */
